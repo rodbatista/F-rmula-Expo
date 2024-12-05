@@ -1,58 +1,135 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fórmula Expo</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <img src="/img/logo.png" alt="logo">
-        <nav>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" class="logo">
             <ul>
-                <li>home</li>
-                <li>sobre</li>
-                <li>carros</li>
+                <li>INICIO</li>
+                <li>CATEGORIA</li>
+                <li>INFO</li>
+                <li>CONTATO</li>
             </ul>
-        </nav>
-        <section>
-            <div class="list">
-                <div class="item">
-                    <div class="car-img">
-                        <img src="/img/1.png" alt="imagem-carro">
-                    </div>
-                    <div class="content">
-                        <p class="car-info">
-                            único dono
-                        </p>
-                        <h2>
-                            Ferrari
-                        </h2>
-                        <p class="desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta quos dolores voluptas illo ipsam atque, facere sint velit iure deserunt ipsa repudiandae quaerat quis quo porro asperiores architecto ex?
-                        </p>
-                        <button>
-                            Saiba mais
+        </div>
+        <div id="slide">
+            <div class="item">
+                <div class="image">
+                    <img src="img2.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>FORMULA EXPO</h1>
+                        <div class="des"> <br> A informática não é apenas ciência. É a arte de tranformar dados em soluções.</div>
+                        <button>Veja mais
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
                         </button>
                     </div>
+                    <div class="right">
+                        <h2>NOME</h2>
+                        <ul>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
+             <div class="item">
+                <div class="image">
+                    <img src="img1.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>FORMULA EXPO</h1>
+                        <div class="des">Não se atreva a desistir.</div>
+                        <button>Veja mais
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="right">
+                        <h2>NOME</h2>
+                        <ul>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="arrows">
-                <button><img src="img/arrow.png" alt="seta"></button>
-                <button><img src="img/arrow.png" alt="seta"></button>
+                </div>
             </div>
+             <div class="item">
+                <div class="image">
+                    <img src="img3.png">
+                </div>
+                <div class="content">
+                    <div class="left">
+                        <h1>FORMULA EXPO</h1>
+                        <div class="des">Pequenos passos todos os dias somam grandes resultados.</div>
+                        <button>Veja mais
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="right">
+                        <h2>NOME</h2>
+                        <ul>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>INFORMAÇÕES</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class="indicators">
-                <div class="numbers">01</div>
-                <ul>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                </div>
             </div>
-        </section>
-    </header>
+            
+        </div>
+        <div class="directional">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
